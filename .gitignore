@@ -1,0 +1,32 @@
+# Build outputs
+app/build/
+build/
+*.apk
+
+# Gradle caches / retry dirs (local only)
+.gradle/
+.gradle_home/
+ghome/
+ghome2/
+pcache/
+bh*/
+bp*/
+tools/
+.tools/
+native/
+
+# Downloaded distributions
+*.zip
+*.bin
+gradle-*/
+
+# IDE / local
+local.properties
+.idea/
+*.iml
+
+# Test/debug leftovers
+_t.txt
+_test.lock
+LoadTest*.java
+LoadTest*.class
